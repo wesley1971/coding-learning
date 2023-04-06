@@ -3,17 +3,14 @@
      <meta charset="utf-8">
 </head>
 <body>
-    <h1>php</h1>
-    
-    <?php
-        echo 10+10, " php도 이렇게 하면 되나";
-    ?>
-    
     <h1>JavaScript</h1>
-    
     <script>
-        document.write(10+10, "<-string value는 인용부호로 공통");
+        document.write("10"+"10");
     </script>
+    <h1>PHP</h1>
+        <?php
+            echo "10"."10";
+        ?>
 </body>
 <footer>
     <div> ----------------</div>

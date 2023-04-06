@@ -4,17 +4,13 @@
 </head>
 <body>
     <h1>php</h1>
-    
-    <?php
-        echo 10+10, " php도 이렇게 하면 되나";
-    ?>
-    
-    <h1>JavaScript</h1>
-    
     <script>
-        document.write(10+10, "<-string value는 인용부호로 공통");
+        document.write("hello world");
     </script>
+
+    <?php?>
 </body>
+
 <footer>
     <div> ----------------</div>
     <a href="/index.php">go to index ==></a>
