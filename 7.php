@@ -5,13 +5,15 @@
 <body>
     <h1>JavaScript</h1>
     <script>
-
+        password = prompt("비밀번호");
+        document.write(password);
+        if (password==1111){
+            document.write("안녕하세요 회원님");
+        } else{
+                document.write("who r u");
+            }
     </script>
-
     <h1>PHP</h1>
-    <?php
-
-    ?>
 
 </body>
 <footer>

@@ -9,6 +9,7 @@
   <h1>php</h1>
   <?php
     echo 10+10;
+
   ?>
   <h1>JavaScript & PHP</h1>
   <script>
