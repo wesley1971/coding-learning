@@ -7,6 +7,7 @@
     
     <?php
         echo 10+10, " php도 이렇게 하면 되나";
+        phpinfo()
     ?>
     
     <h1>JavaScript</h1>

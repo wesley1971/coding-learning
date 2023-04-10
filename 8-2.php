@@ -14,8 +14,10 @@
     $password = $_GET["password"];
     if($password == "1111"){
         echo "주인님 환영합니다";
-    } else {
-        echo "뉘신지?";
+          if($password == ){
+            echo "암호 미입력";}
+            } else {
+                echo "뉘신지?";
     }
 
 }
