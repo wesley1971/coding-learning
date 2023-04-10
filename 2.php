@@ -13,7 +13,6 @@
         ?>
 </body>
 <footer>
-    <div> ----------------</div>
-    <a href="/index.php">go to index ==></a>
+    <iframe style="border: 0; width: 100%; height: 100%;" src="/footer.html"> </iframe>
 </footer>
 </html>
