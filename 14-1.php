@@ -5,12 +5,16 @@
 <body>
   <h1>JavaScript</h1>
   <script>
-  
   </script>
-  
+
   <h1>PHP</h1>
+
   <?php
-  
+    $input = $_GET["input"];
+    function a($input) {
+      return $input*10;
+    }
+    echo a($input);  
   ?>
 </body>
 <footer>

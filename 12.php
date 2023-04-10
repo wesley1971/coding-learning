@@ -5,12 +5,20 @@
 <body>
   <h1>JavaScript</h1>
   <script>
-  
+    function a() {
+      document.write("hello JS function!");
+    }
+    a();
+    a();
+    a();
   </script>
-  
+
   <h1>PHP</h1>
   <?php
-  
+    function a() {
+      echo "hello PHP function!";
+    }
+    a();  
   ?>
 </body>
 <footer>

@@ -5,12 +5,20 @@
 <body>
   <h1>JavaScript</h1>
   <script>
-  
+    input = prompt("입력값");
+    function a(input) {
+      return input*10;
+    }
+    document.write(a(input));
+
+    a();
+    a();
   </script>
-  
+
   <h1>PHP</h1>
+
   <?php
-  
+
   ?>
 </body>
 <footer>
