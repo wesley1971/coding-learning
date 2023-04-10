@@ -15,7 +15,8 @@
         <input type="submit">
     </form>
     <?php
-      echo $_GET["password"];
+      $password = "test";
+      echo $password;
     ?>
   
 </body>
