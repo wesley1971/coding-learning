@@ -1,9 +1,9 @@
 <html>
     <body>
-        <input type="type" value="white"/>
-        <input type="checkbox" value="white"/><br>
-        <input type="button" value="white" onclick="alert('hello')" />
-        <input type="text" onfocus="alert('focus')" onblur="alert('blur')" />
+        <input type="text" onclick="alert('focus')" onblur="alert('blur')"/>
+        <input type="text" id="user_input"/>
+        <input type="button" value="white" onclick="alert(document.getElementById('user_input').value)" />
+
         <script>
             
         </script>
