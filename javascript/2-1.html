@@ -1,0 +1,33 @@
+<html>
+    <meta charset="utf-8">
+    <head>
+        <style>
+            li{
+                color:blue;
+            }
+            .em{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <ol id="target">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ol>
+        <ul id="object">
+            <li>윤성원</li>
+            <li>윤마레</li>
+            <li>최유빈</li>
+            <li>한이은</li>
+        </ul>
+        <input type="text" id="user_input" document.write(user_input) />
+
+        <input type="button" value="강조" onclick="alert(document.getElementById('user_input').value); 
+        document.write();
+        document.getElementById('user_input').className='em'" />
+        <input type="button" value="강조" onclick="document.getElementById('target').className='em'" />
+
+    </body>
+</html>
